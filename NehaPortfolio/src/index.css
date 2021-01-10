@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+body {
+    background: linear-gradient(to right, #c94b4b, #4b134f);
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: #354548;
+
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.container {
+    padding-top: 50px;
+}
+
+.row {
+    height: 90vh;
+}
+
+.app-main-content {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+}
+
+/* designing sidebar */
+
+.sidebar {
+    background-color: #fff;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+.sidebar-avatar{
+    height: 110px;
+    width: 120px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.sidebar-icon{
+    width: 35px;
+    height: 35px;
+    color: #4b134f;
+}
+.sidebar-name{
+    font-family: "Kaushan Script";
+    font-size: 1.7em;
+    margin: 20px 0;
+}
+.sidebar-item{
+    margin-bottom: 6px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 1.05 em;
+    border-radius: 30px;
+}
+
+.sidebar-title{
+    background-color: #dfdfdf;
+    border-radius: 30px;
+}
+.sidebar-contact{
+    margin:20px -15px;
+    
+    background-color: #dbdddf;
+    padding: 2px 0;
+
+}
+.sidebar-email{
+    background: linear-gradient(to right, #c94b4b, #4b134f);
+    border-radius: 30px;
+    color: #fff;
+    margin: 15px 25px 0px;
+    cursor: pointer;
+    transition: all 3s linear;
+}
+.sidebar-email:hover{
+    transform: scale(1.2);
+}
+.sidebar-github:hover,
+.sidebar-resume:hover{
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: #000;
+    border-radius: 30px;
+}
+
+@media(max-width:991px){
+    .app-main-content{
+        margin: 30px 0;
+    }
+}
